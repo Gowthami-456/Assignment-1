@@ -1,0 +1,71 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    background-color: dodgerblue;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.heading
+{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+.form-container
+{
+    padding-top: 37px;
+    justify-content: center;
+    min-height: 40vh;
+    padding-left: 70px;
+    background-color: white;
+    left: -50;
+    height: 95vh;
+    margin: 0 auto;
+    width: 40%;
+    
+    position: relative;
+    top: 10px;
+    
+    
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+form.box{
+    width: 98.5;
+    height: 2.8cm;
+    position: relative;
+    bottom: 10px;
+    border:0;
+    border-radius: 5px;
+
+}
+    
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:royalblue;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+#text{
+
+    height: 50px;
+    width: 70%;
+    resize:none; 
+     padding: 8px 10px;
+   font-size: 16px;
+   outline: none;
+    right: -100px;
+}
